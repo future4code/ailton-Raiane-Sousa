@@ -1,0 +1,2 @@
+# Aprendizado da semana.
+O aprendizado começou **dificil**, o primeiro contato com o terminal gita assusta, mas aos poucos acredito estar me adaptando.O Vscode é novo, porém e de uma compreensão mais fácil. Apesar de toda a dificuldade pude contar com o **apoio** dos meus colegas de turma.
