@@ -1,0 +1,2 @@
+# Aprendizado da semana.
+Nesta primeira semana, o aprendizado foi **gradativo**, aos poucos estou começando  entender os comandos e percebendo os meus erros. O *Terminal Git Bash e o GitHub* um **Desafio**, que eu pretendo vencer.
