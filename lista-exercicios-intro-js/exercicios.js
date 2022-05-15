@@ -2,9 +2,12 @@
 
 // EXERCÍCIO 0A
 function soma(num1, num2) {
-  // implemente sua lógica aqui
   return num1 + num2
+  
 }
+
+// implemente sua lógica aqui
+
 
 // EXERCÍCIO 0B
 function imprimeMensagem() {
@@ -18,35 +21,48 @@ function imprimeMensagem() {
 
 // EXERCÍCIO 01
  // implemente sua lógica aqui
-function calculaAreaRetangulo() {
-Const base =Number(prompt(Qual a altura do triângulo?))
+// function calculaAreaRetangulo() {
+// Const base =Number(prompt(Qual a altura do triângulo?))
 
-Const largura = Number(prompt((Qual a largura do triângulo))
+// Const largura = Number(prompt((Qual a base do triângulo))
 
-Const area = (base*altura)/2
+// Const area = (base*altura)/2
 
-return area }
+// return area }
 
-Console.log(area)
+// Console.log(area)
 
-// EXERCÍCIO 02
-function imprimeIdade() { const idade =
-  // implemente sua lógica aqui
-
-}
+// // EXERCÍCIO 02
+// function imprimeIdade() { 
+//   const anoAtual = Number(prompt("Qual é o ano atual ?"))
+//   const anoDeNascimento = Number(prompt("Em que ano você nasceu?"))
+//   const imprimeIdade = anoAtual - anoDeNascimento
+//   return imprimeIdade
+//   // implemente sua lógica aqui
+// }
+// console.log(imprimeIdade)
 
 // EXERCÍCIO 03
-function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
+// function calculaIMC(peso, altura) {
+//   const imc = peso (altura*altura)
+//   return imc
+// }
+// const imc1 = calculaIMC(63,1.6)
+// const imc2 = calculaIMC(55,1,57)
 
-}
+// implemente sua lógica aqui
+
+
 
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
-
-}
+// function imprimeInformacoesUsuario(nome,idade,email) {
+// const frase = (`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}`)
+// return frase
+// }
+// cons fraseCompleta = imprimeInformacoesUsuario (nome = prompt("Qual é o seu nome?"),  idade = prompt("qual a sua idade?"),email = prompt ("Qual é o seu email?"))
+// console.log (fraseCompleta)
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
