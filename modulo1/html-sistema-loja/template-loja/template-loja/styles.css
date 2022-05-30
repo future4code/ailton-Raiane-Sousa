@@ -1,10 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 header{
 
     color:white;
  }
 
-.lema-da-loja{
+ .lema-da-loja{
     color:white;
 }
 
@@ -16,11 +22,16 @@ header{
     background-image: url(img/universo.jpeg);
 }
 
+.ponto-de-referencia{
+    position: relative;
+
+}
+
 #menu {
     display:block;
 }
 
-#menu ul{
+#menu > ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
