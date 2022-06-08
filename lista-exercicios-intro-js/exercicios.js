@@ -65,7 +65,11 @@ function imprimeMensagem() {
 // console.log (fraseCompleta)
 
 // EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
+projeto-lista-js
+
+function imprimeTresCoresFavoritas(cor1,cor2,cor3) {
+  
+ master
   // implemente sua lógica aqui
 
 }
