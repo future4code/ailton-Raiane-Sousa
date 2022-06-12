@@ -1,0 +1,62 @@
+.App-header {
+  background-color: #50545c;
+  border: 2px solid #282c34;
+  height: 10vh;
+  width: 498px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+img{
+  width: 10vh;
+  height: 10vh;
+  margin-right: 10px;
+}
+.Container{
+  border:2px solid #282c34;
+  height: 94vh;
+  width: 500px;
+  margin-left: 30%;
+  
+}
+
+.Corpo{
+  width: 30%;
+
+
+}
+.inputs{
+  margin-left:30% ;
+  border: 2px solid #282c34;
+  width: 500px;
+  margin-top: 0%;
+}
+.inputRemetente{
+  width: 20%;
+  
+}
+
+input{
+  margin-top: 0%;
+  width: 60%;
+  height: 30px;
+}
+.apagar{
+  position: absolute;
+  height: 0;
+  width: 3vh;
+  height:3vh;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+width: 84px;
+height:6vh;
+}
+
+button:hover{
+  background-color:beige;
+}
