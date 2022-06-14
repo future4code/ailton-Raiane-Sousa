@@ -136,6 +136,7 @@
 // LOOP+CONDICIONAL
 // Exercício 6 -------------------------------------------------------------------------------------
 
+
 const segundaDose = (nomeDoUsuario) => {
     const usuarios = [
         { nome: "Artur", imunizacao: "incompleta" },
@@ -158,6 +159,7 @@ const segundaDose = (nomeDoUsuario) => {
 } 
 
 console.log(segundaDose("Barbara"));
+
 
 // Exercício 7 --------------------------------------------------------------------------------------
 
