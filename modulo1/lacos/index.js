@@ -40,20 +40,24 @@
 // c) Por fim, imprima o array com os nomes dos bichinhos no console
 
 
-let quantidadeDePet = Number(prompt("Quantos bischos de estimação você tem? "))
+// let quantidadeDePet = Number(prompt("Quantos bischos de estimação você tem? "))
 
-const nuneroDigitadoDePet = []
+// const nuneroDigitadoDePet = []
 
-while (quantidadeDePet !== 0) {
+// while (quantidadeDePet !== 0) {
 
-    let  nomeDoPet = prompt("qual é o nome do seu bicho de estimaçao? ")
+//     let  nomeDoPet = prompt("qual é o nome do seu bicho de estimaçao? ")
 
-    nuneroDigitadoDePet.push(nomeDoPet)
+//     nuneroDigitadoDePet.push(nomeDoPet)
 
-(contador < quantidadeDePet)
+// (contador < quantidadeDePet)
 
-contador=contador+1
-}
+// contador=contador+1
+// }
 
 
-console.log(nuneroDigitadoDePet)
+// console.log(nuneroDigitadoDePet)
+
+
+// ==================apagar
+

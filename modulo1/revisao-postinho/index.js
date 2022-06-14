@@ -137,20 +137,29 @@
 // Exercício 6 -------------------------------------------------------------------------------------
 
 
-const usuarios = [
+const segundaDose = (nomeDoUsuario) => {
+    const usuarios = [
         { nome: "Artur", imunizacao: "incompleta" },
         { nome: "Barbara", imunizacao: "incompleta" },
         { nome: "Carlos", imunizacao: "incompleta" }
-]
+    ]
+    
+    // if(nomeDoUsuario === segundaDose.usuarios.nome){
+    //   return  usuarios.replaceAll("incompleta","completa")
+    // }
 
-const segundaDose = (nomeDoUsuario) => {
-segundaDose = usuarios.map((item)=>{
+    const novoArray = usuarios
+    .filter((item) => {
+       return item.nome === nomeDoUsuario
+    }).map((item)=>{
+       return {...item, imunizacao: (item.imunizacao `completa`)}
+    })
 
-      return {...item, imunizacao: (item.imunizacao 'completa')}
-     
-      )}}
+    console.log(novoArray)
+} 
 
-console.log(segundaDose('Barbara'));
+console.log(segundaDose("Barbara"));
+
 
 // Exercício 7 --------------------------------------------------------------------------------------
 
