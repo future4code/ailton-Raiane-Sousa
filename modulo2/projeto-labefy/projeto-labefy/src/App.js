@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import axios from 'axios'
+import React from 'react'
+import Home from './pages/Home'
+import Playlist from './pages/Playlist'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  state={
+    telaAtual: 'Home'
+  }
+
+
+  escolherTela = () => {
+    switch(this.state.telaAtual){
+      case 'Home':
+        return <Home irParaHome={this.irParaHome}/>
+      case 'Playlist':
+          return <Playlist irParaPlaylist={this.irParaPlaylist}/>
+      default:
+        return "Erro!"
+    }
+  }
+
+  irParaHome = () => {
+    this.setState({telaAtual:"Home"})    
+    }
+
+  irParaPlaylist = () => {
+    this.setState({telaAtual:"Playlist"}) 
+    }
+
+  render() {
+    return (
+      <div> 
+        {this.escolherTela()}
+      </div>
+    )
+  }
 }
 
-export default App;
+// export default App;
